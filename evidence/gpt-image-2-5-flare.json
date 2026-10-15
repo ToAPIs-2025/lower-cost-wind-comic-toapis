@@ -1,0 +1,67 @@
+{
+  "task_id": "tsk_img_01M4YT64K1MWPDEVY09QK9KAR2",
+  "model": "gpt-image-2.5-flare",
+  "status": "completed",
+  "date": "2026-10-15",
+  "quote_usd": 0.0225,
+  "actual_charge_usd": 0.0225,
+  "quote_source": "GET /v1/pricing, 2026-10-15",
+  "prompt": "Original cinematic animated storyboard still: an adult explorer in a cobalt coat crossing a narrow wooden bridge toward a glowing amber observatory among misty mountains. Painterly 2D animation style, teal and warm amber palette, clear silhouette, no text, no logos, no copyrighted characters, square composition.",
+  "output": "examples/gpt-image-2-5-flare.png",
+  "original_output": "examples/gpt-image-2-5-flare.original.png",
+  "actual_dimensions": [
+    1024,
+    1024
+  ],
+  "original_format": "PNG",
+  "source_sha256": "18a5f3aab4153d0b4bc8bd3622222d57e6e5ddd42ef5075f9c6b75f0b6b506af",
+  "scope": "原 ImageProvider/VideoProvider注册表 → 新ToAPIs Provider；全剧本到成片与Next.js页面未验收。",
+  "receipt": {
+    "task_id": "tsk_img_01M4YT64K1MWPDEVY09QK9KAR2",
+    "state": "completed",
+    "request": {
+      "model": "gpt-image-2.5-flare",
+      "prompt": "Original cinematic animated storyboard still: an adult explorer in a cobalt coat crossing a narrow wooden bridge toward a glowing amber observatory among misty mountains. Painterly 2D animation style, teal and warm amber palette, clear silhouette, no text, no logos, no copyrighted characters, square composition.",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      },
+      "quality": "high"
+    },
+    "observations": [
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "completed",
+        "billing": null
+      }
+    ],
+    "billing": null
+  },
+  "actual_credits": 4.5,
+  "charge_source": "Owner-provided backend Task Logs screenshot, 2026-10-15; matched task ID prefix and model; 1 credit = USD 0.005",
+  "charge_confirmed_date": "2026-10-15"
+}

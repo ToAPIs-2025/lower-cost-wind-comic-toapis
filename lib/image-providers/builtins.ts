@@ -1,3 +1,4 @@
+import './toapis';
 /**
  * v3.2 P1 — 把内置 4 个引擎 (MJ / Minimax / Flux) 也走 plugin registry.
  *

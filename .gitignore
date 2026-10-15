@@ -116,3 +116,10 @@ videos/wind-comic-promo/compositions/frames/assets/
 # 同目录的 pose_landmarker_lite.task(5.8MB,Apache-2.0)**要入库** —— 构建期不联网下载。
 /public/vendor/mediapipe/*.wasm
 /public/vendor/mediapipe/vision_wasm_internal.js
+
+# ToAPIs private local state
+.env
+.toapis-state/
+private-state/
+__pycache__/
+node_modules/

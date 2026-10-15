@@ -236,6 +236,8 @@ export async function dispatchVideoGenerate(
         return { result: r, tried };
       } catch (e) {
         const _msg = e instanceof Error ? e.message : String(e);
+      // A ToAPIs submission may already be billable. Do not retry or fall back.
+      if (p.id.startsWith('toapis-')) throw e;
         tried.push({ id: p.id, error: _msg });
         if (attempt === 0 && isTransientVideoError(_msg)) {
           console.log(`[VideoDispatch] ${p.id} 瞬时错误,3s 后同引擎重试一次: ${_msg.slice(0, 80)}`);

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-15",
+  "image_tasks": 3,
+  "credits": 7.88,
+  "usd": 0.0394,
+  "rate_usd_per_credit": 0.005,
+  "source": "Owner backend screenshot; API billing remains null",
+  "video_submissions_included": false,
+  "items": [
+    {
+      "task_id": "tsk_img_01M4YT64JJ34ZGCKDS8G4WEK5A",
+      "model": "gemini-nano-banana-2.1",
+      "credits": 3,
+      "usd": 0.015
+    },
+    {
+      "task_id": "tsk_img_01M4YT64K1MWPDEVY09QK9KAR2",
+      "model": "gpt-image-2.5-flare",
+      "credits": 4.5,
+      "usd": 0.0225
+    },
+    {
+      "task_id": "tsk_img_01M4YT64KB61AY21ZEVYAAY80Q",
+      "model": "gpt-image-2-vip",
+      "credits": 0.38,
+      "usd": 0.0019
+    }
+  ]
+}

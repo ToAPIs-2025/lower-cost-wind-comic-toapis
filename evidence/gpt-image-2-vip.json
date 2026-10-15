@@ -1,0 +1,113 @@
+{
+  "task_id": "tsk_img_01M4YT64KB61AY21ZEVYAAY80Q",
+  "model": "gpt-image-2-vip",
+  "status": "completed",
+  "date": "2026-10-15",
+  "quote_usd": 0.0019,
+  "actual_charge_usd": 0.0019,
+  "quote_source": "GET /v1/pricing, 2026-10-15",
+  "prompt": "Original cinematic animated storyboard still: an adult explorer in a cobalt coat crossing a narrow wooden bridge toward a glowing amber observatory among misty mountains. Painterly 2D animation style, teal and warm amber palette, clear silhouette, no text, no logos, no copyrighted characters, square composition.",
+  "output": "examples/gpt-image-2-vip.png",
+  "original_output": "examples/gpt-image-2-vip.original.png",
+  "actual_dimensions": [
+    1024,
+    1024
+  ],
+  "original_format": "PNG",
+  "source_sha256": "8fa1104556cb32395c4cd73c8d7d0404d3043b656caceb7e54753cf7512bf0be",
+  "scope": "原 ImageProvider/VideoProvider注册表 → 新ToAPIs Provider；全剧本到成片与Next.js页面未验收。",
+  "receipt": {
+    "task_id": "tsk_img_01M4YT64KB61AY21ZEVYAAY80Q",
+    "state": "completed",
+    "request": {
+      "model": "gpt-image-2-vip",
+      "prompt": "Original cinematic animated storyboard still: an adult explorer in a cobalt coat crossing a narrow wooden bridge toward a glowing amber observatory among misty mountains. Painterly 2D animation style, teal and warm amber palette, clear silhouette, no text, no logos, no copyrighted characters, square composition.",
+      "n": 1,
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low"
+    },
+    "observations": [
+      {
+        "status": "queued",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "queued",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "in_progress",
+        "billing": {
+          "status": "pending"
+        }
+      },
+      {
+        "status": "completed",
+        "billing": null
+      }
+    ],
+    "billing": null
+  },
+  "actual_credits": 0.38,
+  "charge_source": "Owner-provided backend Task Logs screenshot, 2026-10-15; matched task ID prefix and model; 1 credit = USD 0.005",
+  "charge_confirmed_date": "2026-10-15"
+}

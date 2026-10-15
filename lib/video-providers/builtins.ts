@@ -1,3 +1,4 @@
+import './toapis';
 /**
  * v3.2 P2 — VideoProvider 内置 4 个 adapter:
  *   1. veo            (T2V + I2V + 多参考图)

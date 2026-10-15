@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {registerImageProvider,clearImageProviders,dispatchImageGenerate} from './lib/image-providers/registry';
+import {registerVideoProvider,clearVideoProviders,dispatchVideoGenerate} from './lib/video-providers/registry';
+clearImageProviders();clearVideoProviders();let imageFallback=0,videoFallback=0;
+const failure=async()=>{throw new Error('Uncertain submission; reconcile task state');};
+registerImageProvider({id:'toapis-test',name:'test',priority:1,supportsRefs:false,maxRefImages:0,available:()=>true,generate:failure});
+registerImageProvider({id:'other',name:'other',priority:2,supportsRefs:false,maxRefImages:0,available:()=>true,generate:async()=>{imageFallback++;return {provider:'other',imageUrl:'https://example.com/image.png'};}});
+await assert.rejects(()=>dispatchImageGenerate({prompt:'test'},{refCount:0}));assert.equal(imageFallback,0);
+const base={name:'test',supportsImage2Video:true,supportsText2Video:false,supportsLastFrame:false,supportsSubjectReference:false,maxDurationSec:4,available:()=>true};
+registerVideoProvider({...base,id:'toapis-test',priority:1,generate:failure});
+registerVideoProvider({...base,id:'other',priority:2,generate:async()=>{videoFallback++;return {provider:'other',videoUrl:'https://example.com/video.mp4'};}});
+await assert.rejects(()=>dispatchVideoGenerate({prompt:'test',firstFrameUrl:'https://example.com/image.png'},{hasFirstFrame:true,hasLastFrame:false,hasSubjectReference:false,durationSec:4}));assert.equal(videoFallback,0);
+console.log('PASS: image/video uncertain submissions never retry or fall back to another paid provider');

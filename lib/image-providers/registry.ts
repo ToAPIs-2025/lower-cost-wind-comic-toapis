@@ -98,6 +98,8 @@ export async function dispatchImageGenerate(
       tried.push({ id: p.id, error: 'provider returned empty/invalid imageUrl' });
     } catch (e) {
       const _msg = e instanceof Error ? e.message : String(e);
+      // A ToAPIs submission may already be billable. Do not retry or fall back.
+      if (p.id.startsWith('toapis-')) throw e;
       markProviderDownIfFatal(p.id, _msg); // v12.8.0: auth/配额/饱和 → 熔断冷却
       tried.push({ id: p.id, error: _msg });
     }
@@ -133,6 +135,8 @@ export async function dispatchImageGenerate(
         tried.push({ id: `${p.id}(no-ref)`, error: 'provider returned empty/invalid imageUrl' });
       } catch (e) {
         const _msg = e instanceof Error ? e.message : String(e);
+      // A ToAPIs submission may already be billable. Do not retry or fall back.
+      if (p.id.startsWith('toapis-')) throw e;
         markProviderDownIfFatal(p.id, _msg);
         tried.push({ id: `${p.id}(no-ref)`, error: _msg });
       }
