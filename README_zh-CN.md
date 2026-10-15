@@ -66,3 +66,5 @@ Upstream: [ChrisChen667788/wind-comic](https://github.com/ChrisChen667788/wind-c
 <a href='https://metaso.cn/minimax-h3/?s=wind-comic'><img src='assets/sponsors/metaso.png' width='163' alt='MetaSota - upstream sponsor'></a>
 
 Preserved from the original project; no exclusivity or ToAPIs partnership is inferred.
+
+Experimental video registration is disabled by default. It requires an explicit server setting TOAPIS_ENABLE_VIDEO=1 after reconciling the failed submission and confirming a working API contract.
