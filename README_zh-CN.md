@@ -60,3 +60,9 @@ python generate_case.py --model gpt-image-2-vip --prompt "An original product ph
 Upstream: [ChrisChen667788/wind-comic](https://github.com/ChrisChen667788/wind-comic/tree/7e39f530cfc809e23990b8fcf5e0855e9177ebe6), pinned `7e39f530cfc809e23990b8fcf5e0855e9177ebe6`. 社区独立示例，不代表作者背书或已有合作。[署名与许可](NOTICE.md)。
 
 [后台确认的逐项图片消费](evidence/actual-charges.json)。未取得任务ID的视频提交不计入图片合计，仍单独待核。
+
+## Upstream sponsor entry preserved
+
+<a href='https://metaso.cn/minimax-h3/?s=wind-comic'><img src='assets/sponsors/metaso.png' width='163' alt='MetaSota - upstream sponsor'></a>
+
+Preserved from the original project; no exclusivity or ToAPIs partnership is inferred.

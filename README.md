@@ -60,3 +60,9 @@ The adapter maps explicit pixel hints to aspect ratio and sends model-specific r
 Upstream: [ChrisChen667788/wind-comic](https://github.com/ChrisChen667788/wind-comic/tree/7e39f530cfc809e23990b8fcf5e0855e9177ebe6), pinned `7e39f530cfc809e23990b8fcf5e0855e9177ebe6`. Community work; no author endorsement or existing partnership is implied. [Attribution](NOTICE.md).
 
 [Dashboard-confirmed itemized image charges](evidence/actual-charges.json). Video submissions without task IDs are excluded and remain unreconciled.
+
+## Upstream sponsor entry preserved
+
+<a href='https://metaso.cn/minimax-h3/?s=wind-comic'><img src='assets/sponsors/metaso.png' width='163' alt='MetaSota - upstream sponsor'></a>
+
+Preserved from the original project; no exclusivity or ToAPIs partnership is inferred.
