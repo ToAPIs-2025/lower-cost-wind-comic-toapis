@@ -18,6 +18,16 @@
 gpt-image-2(VIP) **$0.0019/image 起**；本表 low/1K 实测档位为 **$0.0019/image**。不同模型、质量和分辨率不代表同质效果。
 
 [视频补测、参数、费用与复用](video_extra/README_zh-CN.md)
+<!-- TOAPIS-VIDEO-PREVIEWS-20261016 -->
+### Seedance 视频演示与本条消费
+
+[![Wind Comic · Seedance 2 Mini](video_extra/previews/seedance-2-mini.jpg)](https://raw.githubusercontent.com/ToAPIs-2025/lower-cost-wind-comic-toapis/community/toapis-low-cost/video_extra/clips/seedance-2-mini.mp4)
+
+**Seedance 2 Mini** · 480p · 4.04s · **$0.127484/clip** · 约 $0.031555/s
+
+API结算金额；新三条后台表单待交叉核对。美元/秒为本条配置折算。
+
+<!-- /TOAPIS-VIDEO-PREVIEWS-20261016 -->
 <!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->
 
 [English](README.md) · [上游说明](README.upstream.md)
