@@ -25,7 +25,7 @@ gpt-image-2(VIP), **from $0.0019/image**; the tested low/1K preset here is **$0.
 
 **Seedance 2 Mini** · 480p · 4.04s · **$0.127484/clip** · about $0.031555/s
 
-API-settled amounts; the new tasks await billing-sheet cross-check. USD/s is specific to these clips.
+API settlement matches the owner-confirmed charges. USD/s is specific to these clips.
 
 <!-- /TOAPIS-VIDEO-PREVIEWS-20261016 -->
 <!-- /TOAPIS-MODEL-COST-UPDATE-20261016 -->

@@ -6,7 +6,7 @@ Project-specific tested outputs and failed attempts are recorded separately; ear
 
 | Model/API ID | Result | Output | Clip cost | USD/second | Cost evidence |
 |---|---|---|---:|---:|---|
-| Seedance 2 Mini (`seedance-2-mini`) | completed | 4.04s / 640×640 | $0.127484 | $0.031555/s | API settled; owner sheet pending |
+| Seedance 2 Mini (`seedance-2-mini`) | completed | 4.04s / 640×640 | $0.127484 | $0.031555/s | API settlement and owner-confirmed |
 
 Requested: 4 seconds, 480p, 1:1, generate_audio=false, one first frame, no video/audio input. Successful outputs are 640×640, 24 fps and 4.04 seconds. Seedance bills total tokens; USD/second divides this clip’s settled cost by actual output duration, not a fixed per-second rate.
 
