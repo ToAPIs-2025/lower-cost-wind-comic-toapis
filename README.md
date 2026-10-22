@@ -1,5 +1,10 @@
 # Lower-cost Wind Comic ToAPIs images
 
+<!-- TOAPIS-PROJECT-LINKS-20261022 -->
+[ToAPIs homepage](https://home.toapis.com/WindComic) · [Model pricing](https://pricing.toapis.com/WindComic)
+<!-- /TOAPIS-PROJECT-LINKS-20261022 -->
+
+
 
 <!-- TOAPIS-MODELS-20261020 -->
 ## Model support and prices · 2026-10-20
@@ -76,7 +81,7 @@ API settlement matches the owner-confirmed charges. USD/s is specific to these c
 
 
 
-[ToAPIs · model pricing & API](https://go2v.toapis.com/wi15ge)
+[ToAPIs · model pricing & API](https://pricing.toapis.com/WindComic)
 
 
 
@@ -104,11 +109,11 @@ The original image-provider registry selects the optional ToAPIs provider and ge
 
 |---|---|---|---:|---|
 
-| [`gpt-image-2-vip`](https://go2v.toapis.com/wi15v) | low / 1K | 1024×1024 | $0.0019 | $0.0019 / 0.38 credits |
+| [`gpt-image-2-vip`](https://pricing.toapis.com/WindComic) | low / 1K | 1024×1024 | $0.0019 | $0.0019 / 0.38 credits |
 
-| [`gemini-nano-banana-2.1`](https://x.toapis.com/wi15n) | 1K | 1024×1024 | $0.0150 | $0.0150 / 3 credits |
+| [`gemini-nano-banana-2.1`](https://pricing.toapis.com/WindComic) | 1K | 1024×1024 | $0.0150 | $0.0150 / 3 credits |
 
-| [`gpt-image-2.5-flare`](https://im25.toapis.com/wi15f) | high / 1K | 1024×1024 | $0.0225 | $0.0225 / 4.5 credits |
+| [`gpt-image-2.5-flare`](https://pricing.toapis.com/WindComic) | high / 1K | 1024×1024 | $0.0225 | $0.0225 / 4.5 credits |
 
 
 
