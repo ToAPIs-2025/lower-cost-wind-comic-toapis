@@ -1,8 +1,8 @@
 # 更低成本的 Wind Comic 图片与视频方案
 
-<!-- TOAPIS-PROJECT-LINKS-20261022 -->
-[ToAPIs 官网首页](https://home.toapis.com/WindComic) · [模型价格](https://pricing.toapis.com/WindComic)
-<!-- /TOAPIS-PROJECT-LINKS-20261022 -->
+<!-- TOAPIS-OWNER-INVITE -->
+[注册／使用 ToAPIs](https://toapis.com/login?aff=BEWR) · [参考价表](PRICING_zh-CN.md)
+<!-- /TOAPIS-OWNER-INVITE -->
 
 
 
@@ -81,7 +81,7 @@ API结算与后台表单一致。美元/秒为本条配置折算。
 
 
 
-[ToAPIs · 对应模型价格与接入](https://pricing.toapis.com/WindComic)
+[ToAPIs · 对应模型价格与接入](https://toapis.com/login?aff=BEWR)
 
 
 
@@ -109,11 +109,11 @@ API结算与后台表单一致。美元/秒为本条配置折算。
 
 |---|---|---|---:|---|
 
-| [`gpt-image-2-vip`](https://pricing.toapis.com/WindComic) | low / 1K | 1024×1024 | $0.0019 | $0.0019 / 0.38 credits |
+| [`gpt-image-2-vip`](https://toapis.com/login?aff=BEWR) | low / 1K | 1024×1024 | $0.0019 | $0.0019 / 0.38 credits |
 
-| [`gemini-nano-banana-2.1`](https://pricing.toapis.com/WindComic) | 1K | 1024×1024 | $0.0150 | $0.0150 / 3 credits |
+| [`gemini-nano-banana-2.1`](https://toapis.com/login?aff=BEWR) | 1K | 1024×1024 | $0.0150 | $0.0150 / 3 credits |
 
-| [`gpt-image-2.5-flare`](https://pricing.toapis.com/WindComic) | high / 1K | 1024×1024 | $0.0225 | $0.0225 / 4.5 credits |
+| [`gpt-image-2.5-flare`](https://toapis.com/login?aff=BEWR) | high / 1K | 1024×1024 | $0.0225 | $0.0225 / 4.5 credits |
 
 
 
